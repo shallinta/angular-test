@@ -1,0 +1,53 @@
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  flex-shrink: 0;
+  width: 100px;
+  margin: 10px;
+  padding: 10px 0 0;
+  font-size: 0;
+  border-radius: 8px;
+  border: 1px solid #fcc;
+  background: #9fc;
+}
+
+.item .delete {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background: #ccc;
+}
+
+.item a {
+  text-decoration: none;
+}
+
+.item:hover {
+  background: #f9c;
+}
+
+.item-name {
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.item-image {
+  margin: 10px 0 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
